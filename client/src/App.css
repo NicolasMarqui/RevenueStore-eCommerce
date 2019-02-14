@@ -1,0 +1,1175 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.red-text{
+  color: red;
+}
+
+.mainHeader{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+}
+
+.mainHeader .mainNav{
+  width: 100%;
+  display: flex;
+  height: 100px;
+  margin-bottom: 5%;
+}
+
+.mainHeader .mainNav .navbarBrand{
+  padding: 8%;
+  flex: 1;
+}
+
+.mainHeader .mainNav .navbarBrand h2{
+  color: #333333;
+  letter-spacing: 2px;
+}
+
+.mainHeader .mainNav .menuOrLinks{
+  padding: 4% 2%;
+}
+
+.mainHeader .centerDiv{
+  width: 100%;
+  height: 100vh;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.mainHeader .centerDiv .comprarProdutos{
+  flex: 1;
+  display: flex;
+  background:  url('./components/Imagens/header.jpeg') no-repeat;
+  background-size: cover;
+}
+
+.mainHeader .centerDiv .comprarProdutos h1{
+  margin: auto;
+}
+
+.mainHeader .centerDiv .maisVendidos{
+  flex: 1;
+  display: flex;
+  background:  url('./components/Imagens/body.jpeg') no-repeat;
+  background-size: cover; 
+}
+
+.mainHeader .centerDiv .maisVendidos h1{
+  margin: auto;
+}
+
+.mainHeader .centerDiv h1{
+  margin: auto;
+}
+
+.mainHeader .footerDiv{
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  position: absolute;
+  bottom: 4%;
+  left: 0;
+  /* border: 2px solid red; */
+}
+
+.mainHeader .footerDiv button{
+  padding: 4%;
+  border: none;
+}
+
+.fullNav{
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 5s ease-in-out all;
+}
+
+.active{
+  border-bottom: 2px solid #ffffff;
+}
+
+.fullNav .closeBtn{
+  position: absolute;
+  right: 5%;
+  width: 40px;
+  height: 30px;
+  /* border: 2px solid red; */
+  top: 5%;
+  text-align: center;
+}
+
+.fullNav button{
+  width: 40px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 1s ease-in-out all;
+  /* border: 2px solid red; */
+}
+
+.fullNav button:hover{
+  transform: rotate(180deg);
+}
+
+.fullNav .centerFullNav{
+  width: 60%;
+  height: 300px;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.fullNav .centerFullNav span{
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.fullNav .centerFullNav span:hover{
+  border-bottom: 1px solid #ffffff;
+}
+
+.fullNav .centerFullNav ul{
+  padding: 14px;
+  list-style-type: none;
+  /* border: 2px solid red; */
+}
+
+.fullNav .centerFullNav ul li{
+  padding: 14px;
+}
+
+.fullNav .centerFullNav ul li a{
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.fullNav .centerFullNav ul li a:hover{
+  border-bottom: 1px solid #ffffff;
+}
+
+.mainHeader .dividerInfo{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  margin: 15% 0;
+}
+
+.mainHeader .dividerInfo h1{
+  margin: auto;
+  font-size: 25px;
+}
+
+.mainHeader .dividerInfo span{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.mainHeader .showAboutProducts{
+  width: 100%;
+  min-height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.mainHeader .showAboutProducts .leftSide{
+  background: url('./components/Imagens/info.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.mainHeader .showAboutProducts .item{
+  flex: 1;
+}
+
+.mainHeader .showAboutProducts .rightSide{
+  display: flex;
+  text-align: justify;
+}
+
+.mainHeader .showAboutProducts .rightSide p{
+  margin: auto;
+  width: 70%;
+  padding: 0 0 5% 0;
+}
+
+.mainHeader .moda{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+}
+
+.mainHeader .moda .modaMasculina{
+  flex: 1;
+  background: url('./components/Imagens/male.jpeg') no-repeat center;
+  background-size: cover;
+  display: flex;
+}
+
+.mainHeader .moda .modaFeminina{
+  flex: 1;
+  background: url('./components/Imagens/girl2.jpeg') no-repeat center;
+  background-size: cover;
+  display: flex;
+}
+
+.mainHeader .moda .modaMasculina h1{
+  margin: auto;
+  color: #ffffff;
+}
+
+.mainHeader .moda .modaFeminina h1{
+  margin: auto;
+  color: #ffffff;
+}
+
+.mainHeader .displayTec{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}
+
+.mainHeader .displayTec .rightSideTec{
+  flex: 1;
+  display: flex;
+  background: url('./components/Imagens/iphone.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.mainHeader .displayTec .leftSideTec{
+  flex: 1;
+  display: flex;
+}
+
+.mainHeader .displayTec .leftSideTec p{
+  margin: auto;
+  max-width: 70%;
+}
+
+.mainHeader .showMap{
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.mainHeader .showMap h1{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+}
+
+.mainHeader .showMap .displayMap{
+  margin: 0 auto;
+  width: 80%;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.mainHeader .showMap .displayMap .actualMap{
+  height: 100%;
+  width: 100%;
+}
+
+/* Mostrar Produtos */
+.mainProdutos{
+  /* background:  url('./components/Imagens/body.jpeg') no-repeat;
+  background-size: cover;  */
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 120vh;
+}
+
+.mainProdutosHeader{
+  width: 100%;
+  height: 450px;
+  /* border: 2px solid red; */
+  /* background:  url('./components/Imagens/inv.jpeg') no-repeat; */
+  /* background-size: cover;
+  background-color: rgba(255, 255, 255, 0.9); */
+  display: flex;
+  flex-flow: column nowrap;
+  
+}
+
+.mainProdutosHeader .showCarrinho{
+  /* border: 2px solid red; */
+  width: 15%;
+  height: 40px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+.mainProdutosHeader .rightSideHeader{
+  flex: 2;
+  background: url('./components/Imagens/inv.jpeg') no-repeat center;
+  background-size: cover;
+  display: flex;
+}
+
+.mainProdutos .mainProdutosHeader .rightSideHeader .eeae{
+  margin: auto;
+  padding: 2% 5%;
+  color: #ffffff;
+}
+
+.mainProdutosHeader .leftSideHeader{
+  flex: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  margin: 5% 0;
+}
+
+.mainProdutosHeader .leftSideHeader .totalProdutos{
+  font-size: 30px;
+}
+
+.mainProdutosHeader h1{
+  font-size: 25px;
+  margin: auto;
+  letter-spacing: 2px;
+}
+
+.mainProdutosHeader h2{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.showFilterButton{
+  width: 100%;
+  height: 100px;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.displayContent{
+  width: 70%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
+.displayContent .caixaDosProdutos{
+  width: 95%;
+  min-height: 50px;
+  /* border: 2px solid green; */
+  margin: 5% auto;
+  text-align: center;
+  /* -webkit-box-shadow: 2px 0px 23px 7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 0px 23px 7px rgba(0,0,0,0.75);
+  box-shadow: 2px 0px 23px 7px rgba(0,0,0,0.75);
+  background-color: rgba(255, 255, 255, 0.9); */
+}
+
+.displayContent .caixaDosProdutos img{
+  margin-top: 2%;
+}
+
+.displayContent .caixaDosProdutos h1{
+  margin-top: 2%;
+  font-size: 30px;
+}
+
+.displayContent .caixaDosProdutos p{
+  border: 2px solid black;
+ 
+}
+
+.displayContent .caixaDosProdutos .buyButton{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.displayContent .caixaDosProdutos .buyButton button{
+  border: none;
+  padding: 1%;
+  width: 40%;
+  height: 10%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.beforeProducts{
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  overflow: hidden;
+}
+
+.beforeProducts .centerPromo{
+  flex: 1;
+  display: flex;
+  background: url('./components/Imagens/girl.jpeg') no-repeat center;
+  background-size: cover;
+  transition: all 2s ease;
+}
+
+.beforeProducts .centerPromo:hover{
+  transform: scale(1.2);
+}
+
+.beforeProducts .centerPromo h1{
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2%;
+}
+
+.beforeProducts .mostSelled{
+  flex: 1;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  overflow: hidden;
+}
+
+.beforeProducts .mostSelled h1{
+  margin: auto;
+}
+
+.beforeProducts .mostSelled .leftSideMostSelled{
+  flex: 1;
+  display: flex;
+  background: url('./components/Imagens/male.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.beforeProducts .mostSelled .leftSideMostSelled h1{
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 3% 4%;
+}
+
+.beforeProducts .mostSelled .rightSideMostSelled{
+  flex: 1;
+  display: flex;
+  background: url('./components/Imagens/comp.jpeg') no-repeat center;
+  background-size: cover;
+  transition: all 2s ease;
+}
+
+.rightSideMostSelled:hover{
+  transform: scale(1.2);
+}
+
+.beforeProducts .mostSelled .rightSideMostSelled h1{
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 3% 4%;
+}
+
+/* FOOTER */
+
+.footer{
+  width: 100%;
+  min-height: 30vh;
+  /* border: 2px solid red; */
+  background: url('./components/Imagens/footer.jpeg') no-repeat center;
+  background-size: auto;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  position: relative;
+}
+
+.footer .layer{
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer h4{
+  margin: auto;
+}
+
+/* CARRINHO */
+.carrinhoMain{
+  width: 100%;
+  min-height: 30vh;
+  margin: 10% auto;
+}
+
+.carrinhoMain .actualProd{
+  min-height: 150px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.carrinhoMain .actualProd .titleEPreco{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.carrinhoMain .actualProd .titleEPreco h1{
+  font-size: 15px;
+  margin: 0 2%;
+}
+
+.carrinhoMain .actualProd .titleEPreco input{
+  font-size: 15px;
+  margin: 0 4%;
+  position: absolute;
+  top: 15%;
+  right: 0;
+  width: 15%;
+}
+
+.carrinhoMain .actualProd .precoFinal{
+  flex: 1;
+  display: flex;
+}
+
+.carrinhoMain .actualProd .precoFinal p{
+  margin : auto;
+}
+
+.carrinhoMain .actualProd .precoFinal p:nth-child(2){
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+  color: #ffffff;
+}
+
+.centerDivCarrinho{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.centerDivCarrinho .showFormasPagamento{
+  flex: 1;
+  background: url('./components/Imagens/money.jpeg') no-repeat center;
+  background-size: cover;
+}
+
+.centerDivCarrinho .showInfoCarrinho{
+  flex: 1;
+  display: flex;
+}
+
+.centerDivCarrinho .showInfoCarrinho p{
+  width: 90%;
+  margin: auto;
+}
+
+.emptyCart{
+  width: 100%;
+  height: 90vh;
+  background: url('./components/Imagens/cart.jpeg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+}
+
+.emptyCart .cartEmpty{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2%;
+  width: 80%;
+  margin: auto;
+}
+
+.enterCEP{
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.enterCEP .infosCEP{
+  width: 100%;
+  min-height: 200px;
+  margin: auto;
+  text-align:  center;
+}
+
+.introCEP{
+  font-size: 40px;
+  padding: 2%;
+}
+
+.modalPagamento{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modalPagamento .close{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 35px;
+  color: #ffffff;
+  border: none;
+}
+
+.modalPagamento .modalMain{
+  min-height: 300px;
+  width: 70%;
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+}
+
+.modalPagamento .modalMain h1:nth-child(1){
+  text-align: center;
+  font-size: 35px;
+}
+
+.modalPagamento .modalMain h1:nth-child(2){
+  font-size: 25px;
+  padding: 2% 9%;
+}
+
+.modalPagamento .modalMain h1:nth-child(3){
+  font-size: 25px;
+  padding: 2% 9%;
+}
+
+/* INFORMAÇÃO */
+ .mainHeader .showInfo{
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+}
+
+.mainHeader .showInfo .childInfo{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  flex-flow: column nowrap;
+}
+
+.showInfo .imagemSeparada{
+  flex: 3;
+  display: flex;
+  margin: 2%;
+}
+
+.showInfo .imagemSeparada img{
+  margin: auto;
+  height: 200px;
+  width: auto;
+}
+
+.showInfo .infosInfo{
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2%;
+}
+
+.showInfo .infosInfo h1{
+  margin: auto;
+}
+
+.showInfo .infosInfo p{
+  margin: auto;
+  text-align: justify;
+  padding: 4%;
+}
+
+.showInfo .comprarBtn{
+  margin: 5% 0;
+  padding: 4%;
+  width: 70%;
+}
+
+/* Login */
+.mainLoginWrapper{
+  width: 100%;
+  height: 100vh;
+  overflow: none;
+  background: url('./components/Imagens/login1.jpeg') no-repeat center;
+  background-size: auto;
+  display: flex;
+}
+
+.mainLoginWrapper .centerLogin{
+  width: 70%;
+  min-height: 400px;
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+}
+
+.mainLoginWrapper .centerLogin .loginInputs{
+  width: 90%;
+  height: 200px;
+  padding: 4%;
+  text-align: center;
+  margin: 5%;
+}
+
+.mainLoginWrapper .centerLogin .loginInputs input{
+  border: none;
+  border-bottom: 2px solid red;
+  padding: 3%;
+  margin: 5%;
+}
+
+.mainLoginWrapper .centerLogin button{
+  padding: 4%;
+  width: 80%;
+  background-color: rgba(248, 20, 20, 0.7);
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.mainLoginWrapper .centerLogin h2{
+  font-size: 20px;
+  padding: 2%;
+  margin: 5%;
+}
+
+.mainLoginWrapper .centerLogin .goHome{
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+
+.mainLoginWrapper .centerLogin .goHome h5:hover{
+  transform: scale(1.2);
+}
+
+/* SIGN UP */
+.mainWrapperSign{
+  width: 100%;
+  height: 100vh;
+  overflow: none;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}
+
+.mainWrapperSign .leftSideSign{
+  flex: 1;
+  background: url('./components/Imagens/login2.jpeg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+}
+
+.mainWrapperSign .leftSideSign h1{
+  margin:auto;
+  padding: 2%;
+  background-color: #ffffff;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.mainWrapperSign .leftSideSign h1:hover{
+  transform: scale(1.2);
+}
+
+.mainWrapperSign .rightSideSign{
+  flex: 2;
+  display: flex;
+}
+
+.mainWrapperSign .rightSideSign .centerSign{
+  width: 70%;
+  min-height: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.mainWrapperSign .rightSideSign .centerSign input{
+  border: none;
+  border-bottom: 2px solid red;
+  padding: 3%;
+  margin: 5%;
+
+}
+
+.mainWrapperSign .rightSideSign .centerSign button{
+  padding: 4%;
+  width: 80%;
+  background-color: rgba(248, 20, 20, 0.7);
+  border: none;
+  color: #ffffff;
+  margin: 5%;
+  cursor: pointer;
+}
+
+/* MINHA CONTA */
+
+.minhaContaWrapper{
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.minhaContaWrapper .navMinhaConta{
+  width: 100%;
+  height: 120px;
+  border: 2px solid red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.minhaContaWrapper .navMinhaConta h1{
+  flex: 1;
+  font-size: 25px;
+  padding: 2%;
+}
+
+.minhaContaWrapper .mainContaHeader{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-color: #393f4d;
+}
+
+.minhaContaWrapper .mainContaHeader .centerHello{
+  margin: auto;
+}
+
+.minhaContaWrapper .showEnderecoWrapper{
+  width: 90%;
+  margin: 5% auto;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.minhaContaWrapper .showEnderecoWrapper .currentAdress{
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  background: url('./components/Imagens/address.jpeg') no-repeat center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.minhaContaWrapper .showEnderecoWrapper .currentAdress p{
+  font-size: 35px;
+}
+
+.minhaContaWrapper .showEnderecoWrapper .currentAdress .centerCurrent{
+  margin: auto;
+  background-color: #ffffff;
+  padding: 4%;
+}
+
+.minhaContaWrapper .showEnderecoWrapper .imageDivider{
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.minhaContaWrapper .showEnderecoWrapper .imageDivider h1{
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .mainLoginWrapper .centerLogin{
+    width: 40%;
+  }
+
+  .mainWrapperSign .rightSideSign .centerSign{
+    width: 40%;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mainLoginWrapper .centerLogin{
+    width: 40%;
+  }
+
+  .mainWrapperSign .rightSideSign .centerSign{
+    width: 40%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mainHeader .footerDiv button{
+    padding: 2%;
+  }
+
+  .mainLoginWrapper .centerLogin{
+    width: 30%;
+  }
+
+  .mainWrapperSign .rightSideSign .centerSign{
+    width: 30%;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .mainHeader .footerDiv button{
+    padding: 2%;
+  }
+
+  .displayContent{
+    min-height: 120vh;
+  }
+
+  .fullNav button{
+    top: 8%;
+    right: 0;
+    font-size: 45px;
+  }
+
+  .mainHeader .mainNav{
+    height: 110px;
+    margin-bottom: 3%;
+  }
+
+  .mainHeader .mainNav .navbarBrand{
+    padding: 2% 5%;
+  }
+
+  .mainHeader .mainNav .menuOrLinks{
+    padding: 2% 5%;
+  }
+
+  .fullNav .centerFullNav{
+    width: 35%;
+  }
+
+  .mainHeader .centerDiv{
+    flex-flow: row nowrap;
+  }
+
+  .displayContent{
+    flex-flow: row wrap;
+  }
+
+  .displayContent .caixaDosProdutos{
+    max-width: 30%;
+    height: 350px;
+  }
+
+  .mainProdutosHeader .rightSideHeader{
+    flex-flow: row nowrap;
+    background-size: auto;
+  }
+
+  .mainProdutosHeader .showCarrinho{
+    top: 5%;
+    right: 5%;
+    width: 5%;
+  }
+
+  .mainHeader .showAboutProducts{
+    flex-flow: row nowrap;
+  }
+
+  .mainHeader .dividerInfo{
+    margin: 5% 0;
+  }
+
+  .beforeProducts .mostSelled{
+    flex-flow: row nowrap;
+  }
+
+  .mainProdutos .mainProdutosHeader .rightSideHeader{
+    background: url('./components/Imagens/header3.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+ .mainProdutos .mainProdutosHeader .rightSideHeader h1{
+    color: #ffffff;
+  }
+
+  .footer{
+    flex-flow: row;
+    margin-top: 5%;
+  }
+
+  .mainHeader .moda{
+    flex-flow: row nowrap;
+    text-align: center;
+  }
+
+  .mainHeader .displayTec{
+    flex-flow: row-reverse nowrap;
+  }
+
+  .mainHeader .displayTec .leftSideTec p{
+    max-width: 40%;
+  }
+
+  .mainHeader .showMap h1{
+    font-size: 50px;
+  }
+
+  .carrinhoMain{
+    width: 70%;
+  }
+
+  .carrinhoMain .actualProd .precoFinal p:nth-child(2){
+    padding: 1%;
+  }
+
+  .centerDivCarrinho{
+    flex-flow: row nowrap;
+  }
+
+  .centerDivCarrinho .showInfoCarrinho p{
+    width: 40%;
+  }
+
+  .emptyCart{
+    width: 100%;
+    height: 80vh;
+    background: url('./components/Imagens/cart.jpeg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+  }
+  
+  .emptyCart .cartEmpty{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2%;
+    width: 50%;
+    margin: auto;
+  }
+
+  .mainProdutosHeader .leftSideHeader{
+    flex: 1;
+  }
+
+  .mainHeader .showInfo{
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .showInfo .imagemSeparada img{
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+
+  .mainHeader .showInfo .imagemSeparada{
+    flex: 1;
+  }
+
+  .infosInfo{
+    flex: 1;
+  }
+
+  .showInfo .comprarBtn{
+    margin: 5% 0;
+    padding: 2%;
+    width: 40%;
+  }
+
+  .mainProdutos .mainProdutosHeader .rightSideHeader .eeae{
+    padding: 2% 2%;
+  }
+
+  .mainLoginWrapper .centerLogin{
+    width: 20%;
+  }
+
+  .mainLoginWrapper{
+    background-size: cover;
+  }
+
+  .mainWrapperSign{
+    flex-flow: row nowrap;
+  }
+
+  .mainWrapperSign .rightSideSign{
+    flex: 1;
+  }
+
+  .mainWrapperSign .rightSideSign .centerSign{
+    width: 40%;
+  }
+
+  .minhaContaWrapper .showEnderecoWrapper{
+    flex-flow: row nowrap;
+  }
+
+  .modalPagamento .modalMain{
+    width: 40%;
+    text-align: center;
+  }
+
+}
