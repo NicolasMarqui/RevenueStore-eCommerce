@@ -22,4 +22,8 @@ app.use('/api/produtos/', produtos);
 app.use(passport.initialize());
 require("./config/Passport")(passport);
 
+app.get('/', (req, res) => {
+    res.sendFile('./client/public/index.html')
+})
+
 app.listen(port , () => console.log(`Server conectado na porta ${port}`));
