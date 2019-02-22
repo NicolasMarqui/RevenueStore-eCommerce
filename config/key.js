@@ -1,4 +1,4 @@
 module.exports = {
-    MongoURI:'mongodb://admin:admin123@ds213705.mlab.com:13705/first-time-mongo',
+    MongoURI: process.env.Mongo_URI_CONFIG,
     secretOrKey: 'secret',
 }
