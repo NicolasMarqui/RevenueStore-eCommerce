@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const User = require('./models/Usuarios')
 const cors = require('cors');
 const passport = require('passport');
+const path = require('path');
 
 const db = require('./config/key').MongoURI;
 const produtos = require('./routes/api/produtos');
