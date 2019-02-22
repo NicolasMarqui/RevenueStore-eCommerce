@@ -36,6 +36,5 @@ require("./config/Passport")(passport);
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
->>>>>>> 61108001b6fb675c19f809d7f400fb5595f0ad70
 
 app.listen(port , () => console.log(`Server conectado na porta ${port}`));
