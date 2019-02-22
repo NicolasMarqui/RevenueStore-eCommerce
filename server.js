@@ -20,6 +20,10 @@ mongoose
 app.use(cors())
 app.use('/api/produtos/', produtos);
 app.use(passport.initialize());
-require("./config/passport")(passport);
+require('./config/passport')(passport);
+
+app.get('/', (req, res) => {
+    res.sendFile('./client/public/index.html')
+})
 
 app.listen(port , () => console.log(`Server conectado na porta ${port}`));
