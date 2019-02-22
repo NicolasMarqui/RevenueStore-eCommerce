@@ -29,6 +29,7 @@
     "mongoose": "^5.4.8",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
     "prop-types": "^15.7.1",
     "react-leaflet": "^2.2.0",
     "react-redux": "^6.0.0",
@@ -40,7 +41,7 @@
   "devDependencies": {
     "nodemon": "^1.18.9"
   },
-    "engines": {
-        "node": "10.14.1"
-    }
+  "engines": {
+    "node": "10.14.1"
+  }
 }
