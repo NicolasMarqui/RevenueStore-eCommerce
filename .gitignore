@@ -1,6 +1,2 @@
 node_modules/
-config/
-package.json
-package-lock.json
 client/node_modules
-client/package.json
