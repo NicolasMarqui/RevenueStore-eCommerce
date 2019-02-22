@@ -24,13 +24,7 @@ mongoose
 app.use(cors())
 app.use('/api/produtos/', produtos);
 app.use(passport.initialize());
-<<<<<<< HEAD
 require('./config/passport')(passport);
-
-app.get('/', (req, res) => {
-    res.sendFile('./client/public/index.html')
-})
-=======
 require("./config/Passport")(passport);
 
 app.get("*", (req, res) => {
