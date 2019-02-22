@@ -8,6 +8,7 @@ const passport = require('passport');
 const db = require('./config/key').MongoURI;
 const produtos = require('./routes/api/produtos');
 
+
 const app = express();
 app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
@@ -21,9 +22,5 @@ app.use(cors())
 app.use('/api/produtos/', produtos);
 app.use(passport.initialize());
 require("./config/Passport")(passport);
-
-app.get('/', (req, res) => {
-    res.sendFile('./client/public/index.html')
-})
 
 app.listen(port , () => console.log(`Server conectado na porta ${port}`));
