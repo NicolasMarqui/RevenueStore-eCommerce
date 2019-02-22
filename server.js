@@ -13,6 +13,10 @@ const app = express();
 app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
 
+app.get('/', (request, response) => {
+	response.sendFile(path.join(__dirname, 'client/public', 'index.html'));
+});
+
 mongoose
     .connect(db, {useNewUrlParser: true})
     .then( () => console.log('Banco de dados conetado com sucesso'))
