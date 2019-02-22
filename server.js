@@ -13,9 +13,7 @@ const app = express();
 app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
 
-app.get('/', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/public', 'index.html'));
-});
+app.use(express.static(path.join(__dirname, "client", "build")))
 
 mongoose
     .connect(db, {useNewUrlParser: true})
@@ -26,5 +24,9 @@ app.use(cors())
 app.use('/api/produtos/', produtos);
 app.use(passport.initialize());
 require("./config/Passport")(passport);
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
 
 app.listen(port , () => console.log(`Server conectado na porta ${port}`));
