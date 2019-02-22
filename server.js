@@ -10,6 +10,9 @@ const produtos = require('./routes/api/produtos');
 
 
 const app = express();
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "./client/public/index.html"));
+  });
 app.use(bodyParser.json());
 const port = process.env.PORT || 5000;
 
