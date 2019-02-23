@@ -49,7 +49,7 @@
 .mainHeader .centerDiv .comprarProdutos{
   flex: 1;
   display: flex;
-  background:  url('./components/Imagens/header.jpeg') no-repeat;
+  background:  url('./components/Imagens/header-min.jpeg') no-repeat;
   background-size: cover;
 }
 
@@ -60,7 +60,7 @@
 .mainHeader .centerDiv .maisVendidos{
   flex: 1;
   display: flex;
-  background:  url('./components/Imagens/body.jpeg') no-repeat;
+  background:  url('./components/Imagens/body-min.jpeg') no-repeat;
   background-size: cover; 
 }
 
@@ -198,7 +198,7 @@
 }
 
 .mainHeader .showAboutProducts .leftSide{
-  background: url('./components/Imagens/info.jpeg') no-repeat center;
+  background: url('./components/Imagens/info-min.jpeg') no-repeat center;
   background-size: cover;
 }
 
@@ -227,14 +227,14 @@
 
 .mainHeader .moda .modaMasculina{
   flex: 1;
-  background: url('./components/Imagens/male.jpeg') no-repeat center;
+  background: url('./components/Imagens/male-min.jpeg') no-repeat center;
   background-size: cover;
   display: flex;
 }
 
 .mainHeader .moda .modaFeminina{
   flex: 1;
-  background: url('./components/Imagens/girl2.jpeg') no-repeat center;
+  background: url('./components/Imagens/girl2-min.jpeg') no-repeat center;
   background-size: cover;
   display: flex;
 }
@@ -259,7 +259,7 @@
 .mainHeader .displayTec .rightSideTec{
   flex: 1;
   display: flex;
-  background: url('./components/Imagens/iphone.jpeg') no-repeat center;
+  background: url('./components/Imagens/iphone-min.jpeg') no-repeat center;
   background-size: cover;
 }
 
@@ -334,7 +334,7 @@
 
 .mainProdutosHeader .rightSideHeader{
   flex: 2;
-  background: url('./components/Imagens/inv.jpeg') no-repeat center;
+  background: url('./components/Imagens/inv-min.jpeg') no-repeat center;
   background-size: cover;
   display: flex;
 }
@@ -440,7 +440,7 @@
 .beforeProducts .centerPromo{
   flex: 1;
   display: flex;
-  background: url('./components/Imagens/girl.jpeg') no-repeat center;
+  background: url('./components/Imagens/girl-min.jpeg') no-repeat center;
   background-size: cover;
   transition: all 2s ease;
 }
@@ -469,7 +469,7 @@
 .beforeProducts .mostSelled .leftSideMostSelled{
   flex: 1;
   display: flex;
-  background: url('./components/Imagens/male.jpeg') no-repeat center;
+  background: url('./components/Imagens/male-min.jpeg') no-repeat center;
   background-size: cover;
 }
 
@@ -482,7 +482,7 @@
 .beforeProducts .mostSelled .rightSideMostSelled{
   flex: 1;
   display: flex;
-  background: url('./components/Imagens/comp.jpeg') no-repeat center;
+  background: url('./components/Imagens/comp-min.jpeg') no-repeat center;
   background-size: cover;
   transition: all 2s ease;
 }
@@ -503,7 +503,7 @@
   width: 100%;
   min-height: 30vh;
   /* border: 2px solid red; */
-  background: url('./components/Imagens/footer.jpeg') no-repeat center;
+  background: url('./components/Imagens/footer-min.jpeg') no-repeat center;
   background-size: auto;
   display: flex;
   flex-flow: column-reverse nowrap;
@@ -583,7 +583,7 @@
 
 .centerDivCarrinho .showFormasPagamento{
   flex: 1;
-  background: url('./components/Imagens/money.jpeg') no-repeat center;
+  background: url('./components/Imagens/money-min.jpeg') no-repeat center;
   background-size: cover;
 }
 
@@ -600,7 +600,7 @@
 .emptyCart{
   width: 100%;
   height: 90vh;
-  background: url('./components/Imagens/cart.jpeg') no-repeat center;
+  background: url('./components/Imagens/cart-min.jpeg') no-repeat center;
   background-size: cover;
   display: flex;
   text-align: center;
@@ -735,7 +735,7 @@
   width: 100%;
   height: 100vh;
   overflow: none;
-  background: url('./components/Imagens/login1.jpeg') no-repeat center;
+  background: url('./components/Imagens/login1-min.jpeg') no-repeat center;
   background-size: auto;
   display: flex;
 }
@@ -800,7 +800,7 @@
 
 .mainWrapperSign .leftSideSign{
   flex: 1;
-  background: url('./components/Imagens/login2.jpeg') no-repeat center;
+  background: url('./components/Imagens/login2-min.jpeg') no-repeat center;
   background-size: cover;
   display: flex;
   overflow: hidden;
@@ -895,7 +895,7 @@
   flex: 1;
   display: flex;
   flex-flow: column nowrap;
-  background: url('./components/Imagens/address.jpeg') no-repeat center;
+  background: url('./components/Imagens/address-min.jpeg') no-repeat center;
   background-size: cover;
   opacity: 0.8;
 }
@@ -1048,7 +1048,7 @@
   }
 
   .mainProdutos .mainProdutosHeader .rightSideHeader{
-    background: url('./components/Imagens/header3.jpg') no-repeat center;
+    background: url('./components/Imagens/header3-min.jpg') no-repeat center;
     background-size: cover;
   }
 
@@ -1097,7 +1097,7 @@
   .emptyCart{
     width: 100%;
     height: 80vh;
-    background: url('./components/Imagens/cart.jpeg') no-repeat center;
+    background: url('./components/Imagens/cart-min.jpeg') no-repeat center;
     background-size: cover;
     display: flex;
     text-align: center;

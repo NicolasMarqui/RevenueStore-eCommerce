@@ -11,7 +11,7 @@ class minhaConta extends Component {
   componentDidMount = () => {
     console.log(this.props.auth);
 
-    axios.get(`http://localhost:5000/api/produtos/userInfo/${this.props.auth.user.id}`)
+    axios.get(`/api/produtos/userInfo/${this.props.auth.user.id}`)
       .then(res => this.setState({ userInfo: res.data , userLoaded: true}))
       .catch(err => console.log(err))
 
