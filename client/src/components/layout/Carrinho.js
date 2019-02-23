@@ -38,7 +38,7 @@ class Carrinho extends Component {
 
 
         // this.state.novoDupli.forEach(el =>);
-        axios.get('http://localhost:5000/api/produtos/all')
+        axios.get('/api/produtos/all')
             .then(res => res.data.forEach(el => this.props.produtosParaCarrinho.forEach(el2 => {
                 if(el._id === el2){
                     this.state.Itemscarrinho.push(el)
