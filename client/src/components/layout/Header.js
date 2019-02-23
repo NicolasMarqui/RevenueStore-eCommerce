@@ -28,7 +28,7 @@ class Header extends Component {
     }
 
     componentDidMount = () => {
-        axios.get('http://localhost:5000/api/produtos/all')
+        axios.get('/api/produtos/all')
             .then(res => this.setState({ produtos: res.data }))
             .catch(err => console.log(err));
     }
