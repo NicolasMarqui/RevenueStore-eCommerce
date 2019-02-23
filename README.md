@@ -1,7 +1,7 @@
 # RevenueStore-eCommerce
 Site criado usando MERN Stack
 
-[Demo](https://revenuestore.herokuapp.com/produtos)
+[Demo](https://revenuestore.herokuapp.com)
 
 Site criado para aprender mais sobre: 
 
