@@ -17,7 +17,7 @@ export default class Informacoes extends Component {
     }
 
     componentDidMount = () => {
-        axios.get(`http://localhost:5000/api/produtos/info/${this.props.match.params.id}`)
+        axios.get(`/api/produtos/info/${this.props.match.params.id}`)
             .then(res => this.setState({currentProduct: res.data, isReady: !this.state.isReady}))
             .catch(err => console.log(err));
             window.scrollTo(0,0);
