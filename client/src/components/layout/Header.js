@@ -61,10 +61,10 @@ class Header extends Component {
         </div>
         <div className="centerDiv">
             <div className="comprarProdutos">
-                <h1>Sup</h1>
+                <h1>R.</h1>
             </div>
             <div className="maisVendidos">
-                <h1>eae</h1>
+                <h1>S.</h1>
             </div>    
         </div>
         <div className="dividerInfo">
